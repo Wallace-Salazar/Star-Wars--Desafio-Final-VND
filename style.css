@@ -1,0 +1,568 @@
+/*-----------------------BODY-----------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 63, 5%;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(assets/Gilroy-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Sovereign";
+    src: url(assets/Sovereign.otf);
+}
+
+/*----------------------HEADER----------------------*/
+header {
+    background-image: url(https://ourimagehosting.com/images/2022/05/27/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d061515448ec140043e0ab50.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 43vw;
+    max-width: 100vw;
+    position: relative;
+}
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.imagens figure{
+    width: 100%;
+}
+.star{
+    position: absolute;
+    bottom: 31%;
+    left: 19%;
+    width: 25vw;
+}
+.kylo{
+    position: absolute;
+    right: 19%;
+    top: 0;
+    z-index: 9;
+    width: 71vw;
+}
+.wars{
+    position: absolute;
+    right: 10%;
+    bottom: 31%;
+    width: 25vw;
+}
+.legiao{
+    position: absolute;
+    top: 78%;
+    right: 12%;
+    width: 9vw;
+    z-index: 10;
+}
+@media (max-width:600px) {}
+
+/*------------------------MAIN----------------------*/
+main {
+    background-color:white;
+}
+@media (max-width:600px) {}
+
+/*--------------------container-1-------------------*/
+.container-1{
+   width:15hw;
+   background-color:white;
+}
+.caixa-vermelha-container {
+    background-image: url(https://ourimagehosting.com/images/2022/05/27/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d06151549e1126042fea5329.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vw;
+    position: relative;
+}
+.caixa-vermelha {
+    display: flex;
+    justify-content: center;
+    height: 28vw;
+    position: relative;
+}
+.caixa-vermelha::after {
+    content: "";
+    border: #707070 solid 2.7px;
+    background-color: #707070;
+    width: 77%;
+    height: 0.5px;
+    position: absolute;
+    bottom: -20%;
+    left: 14%;
+}
+.red-box {
+    background-image: url(https://ourimagehosting.com/images/2022/05/27/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d061515404d88ae896e7e89a.png);
+    position: absolute;
+    top: -8%;
+    left: 14%;
+    z-index: 9;
+    width: 21vw;
+    height: 29vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.comece{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 600;
+    width: 50%;
+    height: 33%;
+}
+.paragrafo{
+    font-weight: 300;
+    font-size: 1vw;
+    width: 85%;
+    height: 33%;
+    opacity:0.6;
+}
+.DOWNLOAD{
+    font-size: 1vw;
+    color: #fff;
+    background-color: rgb(255, 255, 255, 0);
+    width: 10vw;
+    height: 2.5vw;
+    border: white solid 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity:0.7;
+}
+.DOWNLOAD:active {
+    transform: scale(0.99);
+    opacity: 0.9;
+}
+.DOWNLOAD:hover {
+   opacity:10;
+}
+.lancamento{
+   text-align: right;
+   font-size: 2vh;
+   width: 47vh;
+   margin-top:4vh;
+   opacity:0.4;
+}
+.batalha {
+    position: absolute;
+    top: 55%;
+    left: 38.8%;
+    width: 50vw;
+    display: flex;
+}
+.batalha-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30vw;
+    justify-content: space-between;
+    margin-right: 1vw;
+}
+.batalha-texto h2 {
+    text-transform: uppercase;
+    font-size: 1.6vw;
+}
+.batalha-texto span {
+    width: 9vw;
+    height: 3px;
+    background-color: #000;
+}
+.batalha-texto p {
+    text-align: right;
+    font-size: 1.05vw;
+    width: 92%;
+}
+.batalha img {
+    width: 21vw;
+}
+@media (max-width:600px) {}
+
+/*--------------------container-2-------------------*/
+.container-2 {
+    height: 57vw;
+    position: absolute;
+    top: 80vw;
+}
+.rey-container-sith2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+}
+.sifh {
+    margin-left: 3%;
+}
+.sifh-img {
+    margin-left: 30%;
+    width: 45vw;
+}
+.rey {
+    margin-right: 8%;
+}
+.rey-img {
+    margin-top: 20%;
+    width: 21vw;
+}
+.estrutura-text {
+   height: 30vw;
+   width: 30%;
+   margin-bottom: 5%;
+   
+}
+.h2-estrutura {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    display: inline-block;
+    text-align: right;
+    font-weight: 500;
+    width: 27vw;
+    height: 7%;
+    line-height: 0.5;
+}
+.h2-de {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    margin-left: 33%;
+    font-weight: 500;
+    height: 7%;
+}
+.h2-jogo {
+    font-family: "Sovereign";
+    text-transform: uppercase;
+    font-size: 4vw;
+    display: inline-block;
+    text-align: right;
+    font-weight: 600;
+    height: 15%;
+    width: 30%;
+}
+.estrutura-text p {
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 2.4;
+    font-size: 1.4vw;
+    width: 27vw;
+    cursor: pointer;
+}
+.estrutura-text p:hover {
+    color: white;
+    background-color: #eb3f23;
+}
+@media (max-width:600px) {}
+
+/*--------------------container-3-------------------*/
+.container-3{
+   background-color:#2D2D2D;
+}
+.atributos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.atributos {
+    display: flex;
+    width: 85%;
+}
+.imagem-1 {
+   width:43vw;
+   height:26.70vw;
+   display:block;
+}
+.imagem-1 img {
+  width:43vw;
+  height:26.70vw;
+}
+.imagem-1 img:hover{
+    background-image:url(https://ourimagehosting.com/images/2022/05/27/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d06151541699d57bc196f251.png);
+    background-repeat: no-repeat;
+    background-size: 98%;
+    background-color: #eb3f23;
+}
+.imagem-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.imagem-2 figure {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+.imagem-2 img {
+    width: 100%;
+    height: 100%;
+}
+.imagem-2 img:hover {
+    background-image:url(https://ourimagehosting.com/images/2022/05/27/urn_aaid_sc_US_aaf75fc2-eba3-41ec-bc48-de80d06151541699d57bc196f251.png);
+    background-repeat: no-repeat;
+    background-size: 98%;
+    background-color: #eb3f23;
+}
+.titulo {
+   text-transform: uppercase;
+   font-size: 2.6vw;
+   font-weight: 900;
+   height: 8vw;
+   margin-top:10vw;
+   color:white;
+   margin-right:130vh;
+   
+}
+@media (max-width:600px) {}
+
+/*--------------------container-4-------------------*/
+.container-4{
+   background-color:#2D2D2D;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+.hierarquia {
+    width: 85%;
+    margin-top: 3%;
+    border: lawngreen;
+}
+.hierarquia img {
+   width: 100%;
+   margin-top:2vw;
+}
+.hierarquia-text {
+    display: flex;
+    justify-content: flex-end;
+}
+.hierarquia-text p {
+   color: white;
+   opacity:0.4;
+   text-align: right;
+   font-weight: 300;
+   font-size: 1vw;
+   width: 53%;
+   margin-top:7vh;
+}
+.como-jogar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 20vw;
+}
+.como-jogar-text h2 {
+    color: white ;
+    text-transform: uppercase;
+    font-size: 2.7vw;
+    font-weight: 300;
+    text-align: left;
+    width: 55vw;
+   margin-left:100vh;
+}
+@media (max-width:600px) {}
+
+/*--------------------container-5-------------------*/
+.container-botoes {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 17vw;
+}
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    margin-left: 25vw;
+    margin-top: 5vw;
+}
+.botoes h3 {
+    font-weight: 300;
+    font-size: 2.6vw;
+    text-align: center;
+    order: 1;
+}
+.botoes button {
+    color: white;
+    background-color: #000;
+    text-transform: uppercase;
+    width: 14vw;
+    height: 3.7vw;
+    font-size: 1.5vw;
+    font-weight: 300;
+    border: none;
+    box-shadow: inset 0 0 #000,  0 2px #000, 0 4px 4px #707070;
+    margin-top: 2vw;
+    order: 2;
+    transition: box-shadow ease 1s;
+    cursor: pointer;
+}
+.botoes p {
+    font-size: 1vw;
+    text-align: center;
+    width: 45%;
+    margin-top: 2vw;
+    order: 3;
+}
+.botoes span {
+    width: 6vw;
+    height: 6px;
+    background-color: #000;
+    margin-top: 2vw;
+    box-shadow: inset 0 0 #000;
+    order: 4;
+    transition: box-shadow ease 3s;
+}
+.botoes button:hover {
+    box-shadow: inset 14vw 0 #D74430,  0 2px #000, 0 4px 4px #707070;
+    transition: 1.s ease-in;
+    
+}
+.botoes button:hover~span {
+    box-shadow: inset 6vw 0 #D74430;
+    transition: box-shadow 0.5s ease-in;
+}
+.botoes button:hover~h3 {
+    font-weight: 900;
+}
+.botoes-download {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons-escolher {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons-selecionar {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stortm {
+    position: absolute;
+    top: -21vw;
+    left: 7vw;
+}
+.stortm img {
+    width: 28vw;
+}
+@media (max-width:600px) {}
+
+/*-----------------------FOOTER----------------------*/
+footer {
+    display: flex;
+}
+.container-left {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF5A56;
+    position: relative;
+    align-items: center;
+    height: 46vw;
+    width: 67vw;
+}
+.container-left-text {
+    width: 35vw;
+    margin-top: 7vw;
+}
+.container-left-text h2 {
+    color: #fff;
+    font-family: "Gilroy";
+    font-size: 2.7vw;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.container-left-text p {
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 300;
+    width: 78%;
+    margin-top: 2.6vw;
+}
+.download-app {
+    width: 35vw;
+    position: relative;
+    height: 8vw;
+    margin-top: 1.8vw;
+}
+.download-app button {
+    border: none;
+    box-shadow: none;
+    border-style: none;
+    background-color: #000;
+    height: 1vw;
+    border-radius: 10vw;
+    margin-right: 0.6vw;
+    cursor: pointer;
+}
+.download-app button:focus {
+    outline: none;
+}
+.download-app button:active {
+    transform: scale(0.99);
+}
+.download-app img {
+    width: 13.5vw;
+}
+.download-app::after {
+    content: "";
+    width: 28vw;
+    height: 5px;
+    background-color: #D74430;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.container-left-sw {
+    width: 35vw;
+    margin-top: 3vw;
+}
+.container-left-sw img {
+    width: 13.5vw;
+}
+.container-left-parafrafo-final {
+    width: 35vw;
+}
+.container-left-parafrafo-final p {
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 300;
+    width: 74%;
+    margin-top: 1.5vw;
+}
+.vader {
+    position: absolute;
+    bottom: 1.7vw;
+    left: 84%;
+}
+.vader img {
+    width: 40vw;
+}
+.container-right {
+    width: 39vw;
+    height: 46vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.container-right-paragrafo {
+    width: 60%;
+    font-size: 0.8vw;
+    margin-bottom: 3vw;
+}
+@media (max-width:600px) {}
