@@ -532,7 +532,7 @@ main {
     font-size: 2.7vw;
     font-weight: 300;
     text-align: left;
-    width: 55vh;
+    width: 50vh;
     margin-left:100vh;
 }
 @media (max-width:600px) {
