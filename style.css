@@ -532,7 +532,7 @@ main {
     font-size: 2.7vw;
     font-weight: 300;
     text-align: left;
-    width: 50vh;
+    width: 55vh;
     margin-left:100vh;
 }
 @media (max-width:600px) {
@@ -582,12 +582,10 @@ main {
     font-size: 2.6vw;
     text-align: center;
     order: 1;
-<<<<<<< Updated upstream
     width:4vw;
     height:12vh;
-=======
-	  height:8vh;
->>>>>>> Stashed changes
+	height:8vh;
+
 }
 .botoes button {
     color: white;
@@ -799,9 +797,6 @@ footer {
     font-size: 0.8vw;
     margin-bottom: 3vw;
 }
-<<<<<<< Updated upstream
-@media (max-width:600px) {}
-=======
 
 @media (max-width:600px) {
 	
@@ -893,4 +888,3 @@ footer {
     margin-bottom: 3vw;
 	}
 }
->>>>>>> Stashed changes
