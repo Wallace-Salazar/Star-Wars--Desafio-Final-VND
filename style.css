@@ -766,6 +766,10 @@ footer {
     margin-right: 0.6vw;
     cursor: pointer;
 }
+.download-app button:hover{
+   transform: scale(1.1);
+   box-shadow: 0 0 8px 2px #000;
+}
 .download-app button:focus {
     outline: none;
 }
